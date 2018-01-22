@@ -1,0 +1,31 @@
+#' Mean Sea Level pressure files
+#'
+#' Data from a ERA-Interim reanalysis data set downloaded from ECMWF
+#' (\url{http://apps.ecmwf.int/datasets/data/interim-full-daily/levtype=sfc/}).
+#' This data corresponds to global daily values of mean sea level pressure with 2.5 x 2.5 resolution for January 2000.
+#'
+#' @docType data
+#'
+#' @usage data(press)
+#'
+#' @format A list with values of pressure and coordinates (longitude, latitude, time)
+#' \describe{
+#'   \item{msl}{mean sea level pressure values, "Pa"}
+#'   \item{longitude}{144}
+#'   \item{latitude}{73}
+#'   \item{times}{366, one year (2000)}
+#' }
+#' @keywords datasets
+#'
+#' @references Dee et al. (2011)
+#' \emph{The ERA-Interim reanalysis: configuration and performance of the data assimilation system.
+#'             Q.J.R. Meteorol. Soc., 137: 553–597. doi:10.1002/qj.828}
+#'
+#' @examples
+#' data(press)
+#' mslp  <- press$msl
+#' loni  <- press$loni
+#' lati  <- press$lati
+#' times <- press$dates
+#'
+"press"
