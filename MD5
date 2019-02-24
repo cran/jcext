@@ -1,4 +1,4 @@
-21e34adea08fe5be7ff4cdfc5a66cb1e *DESCRIPTION
+73cbad383bdf1d06edd3ea0bcc97208f *DESCRIPTION
 6e6073fd941b0ffa298486ad20b8b84f *NAMESPACE
 e9fd658b7e93fe424bbfd9e8414e5091 *R/add_date.R
 2cb85660ace1643921a36823c131c789 *R/calculate_constant.R
@@ -8,10 +8,10 @@ f86256e940aed032b062db17a4e56bdc *R/classification_jc.R
 0eb8a221b0f4bf09a1365b4682ce37d3 *R/create_ncdfcwt.R
 059d4f43f6f7a9b01892b9e48db7da14 *R/creatindex_ncdf.R
 bac151549aacc9d3c0ba1303a6b645a0 *R/extended_jc.R
-868e7c27ddf66802466aab793af8f8b8 *R/get_div.R
+dac3134bc4ec77d1a6809e921cddc94e *R/get_div.R
 da802f53aa3391af43c90e8cdd2f15cd *R/get_jcpoints.R
 a7818ae38a6c14eda659c464e224d0dc *R/getmat_cwt.R
-4717c324ca31f6cd5efd0bb97c905ec1 *R/getname_hyb.R
+b4a95e248def89bee66970b61e4574a1 *R/getname_hyb.R
 318cd6f11e057f48aa4fa1d810abb860 *R/isnot_validcp.R
 a5907b12c1cade38dff04f4d55e02630 *R/plot_freqmap_wtypes.R
 b70d9e121681ccccc107b8bed080bd1b *R/plot_jcscheme.R

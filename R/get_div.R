@@ -12,7 +12,7 @@ get_div <- function(fr, nam) {
 
   if (!length(fr[[1]]) == 0) {
     # set the pattern
-    pattern <- "(CNW | ANW)"
+    pattern <- paste(c("CNW","ANW"), collapse='|')
     # found the pattern of the exception
     basic <- (stringr::str_count(nam, pattern) == 1)
     nam[basic] #this is the name (CNW or ACW, the basic type name)

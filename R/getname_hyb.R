@@ -29,8 +29,8 @@ getname_hyb <- function(hybrid_div) {
     }
 
     let1    <- lapply(lett_tot, function(x) x[[1]])
-    let1_a  <- (let1 == "C")
-    let1_c  <- (let1 == "A")
+    let1_c  <- (let1 == "C")
+    let1_a  <- (let1 == "A")
     let_hyb_c <- lett_tot[let1_c]
     let_hyb_a <- lett_tot[let1_a]
     # Order the array

@@ -1,7 +1,7 @@
 Package: jcext
 Type: Package
 Title: Extended Classification of Weather Types
-Version: 0.1
+Version: 0.1.1
 Depends: R (>= 3.2.3)
 Encoding: UTF-8
 Author: Noelia Otero
@@ -15,6 +15,6 @@ Imports: parallel, stringr, RColorBrewer, graphics, grDevices, maps,
 Suggests: ncdf4
 RoxygenNote: 6.0.1.9000
 NeedsCompilation: no
-Packaged: 2018-01-21 16:30:15 UTC; notero
+Packaged: 2019-02-24 15:04:36 UTC; notero
 Repository: CRAN
-Date/Publication: 2018-01-22 11:25:58 UTC
+Date/Publication: 2019-02-24 18:10:18 UTC
